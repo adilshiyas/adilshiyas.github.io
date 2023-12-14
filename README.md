@@ -1,3 +1,4 @@
+theme: jekyll-theme-merlot
 # H1
 ## H2
 ### H3
