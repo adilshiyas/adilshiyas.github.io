@@ -1,10 +1,12 @@
-## About Me
+# About Me
 
 Hi, I'm Adil. I currently work as a Research Associate at the Ascend Studio at the International Institute of Information Technology, Bangalore. My research interests encompass the broad spheres of multi-agent path finding and task allocation, trajectory optimization and search-based planning.
 
-## Projects
+# Projects
 
 ### Design of Planar Collision-free Trochoidal Paths for a Multi-robot Swarm
+
+In the literature, a distributed consensus protocol by which a connected swarm of agents can generate artistic patterns in 2-dimensional space is proposed. Motivated by this protocol, in this paper, we design the parameters of this protocol for a 3-agent swarm of non-holonomic robots of finite size that results in the generation of periodic trochoidal trajectories that satisfy a set of geometric and speed constraints; this design also includes selecting the initial positions of the robots. This problem finds applications in persistent surveillance and coverage, guarding a region of interest, and target detection. While the trajectories may be self-intersecting, imposing geometric constraints i. eliminates collisions between robots; ii. ensures minimum and maximum separation distance between any robot and a fixed point, thus ensuring the robots are in communication range. Imposing speed constraints ensure that tracking these trajectories becomes feasible. It is also shown that robots can be injected to these paths at specific locations, in order to increase the refresh rate, without violating any of the geometric constraints. The designs are implemented in an indoor mobile robot platform.
 
 
 
