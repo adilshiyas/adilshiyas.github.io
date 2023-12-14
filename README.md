@@ -7,7 +7,7 @@
 
 
 
-Hi, I'm Adil. I currently work as a Research Associate at the Ascend Studio at the International Institute of Information Technology, Bangalore. I recieved my B.Tech. degree from PES University from the Department of Mechanical Engineering. My research interests encompass the broad spheres of multi-agent path finding and task allocation, trajectory optimization and search-based planning.
+Hi, I'm Adil. I currently work as a Research Associate at the Ascend Studio at the International Institute of Information Technology, Bangalore. My research interests encompass the broad spheres of multi-agent path finding and task allocation, trajectory optimization and search-based planning.
 
 # H1
 ## H2
