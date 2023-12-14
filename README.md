@@ -4,6 +4,11 @@ Hi, I'm Adil. I currently work as a Research Associate at the Ascend Studio at t
 
 ##Projects
 
+###Design of Planar Collision-free Trochoidal Paths for a Multi-robot Swarm
+
+
+
+
 # H1
 ## H2
 ### H3
