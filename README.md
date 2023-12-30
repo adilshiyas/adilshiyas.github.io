@@ -18,6 +18,10 @@ In the literature, a distributed consensus protocol by which a connected swarm o
 <source src="https://github.com/adilshiyas/adilshiyas.github.io/raw/main/Troch_16x_PV (1).mp4" type="video/mp4">
 </video>
 
+<video controls="" width="800" height="500" muted="" loop="" autoplay="">
+<source src="https://github.com/adilshiyas/adilshiyas.github.io/Troch_16x_PV (1).mp4" type="video/mp4">
+</video>
+
 https://github.com/adilshiyas/adilshiyas.github.io/assets/153742460/f4bb2ff9-1873-4609-8347-361bcf31748e
 
 
