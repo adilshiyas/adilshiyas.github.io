@@ -23,7 +23,7 @@ In the literature, a distributed consensus protocol by which a connected swarm o
 </video>
 
 <video controls="" width="800" height="500" muted="" loop="" autoplay="">
-<source src="https://github.com/adilshiyas/adilshiyas.github.io/blob/main/Troch_16x_PV%20(1).mp4" type="video/mp4">
+<source src="https://github.com/adilshiyas/adilshiyas.github.io/blob/main/Troch_16x_PVs.mp4" type="video/mp4">
 </video>
 
 https://github.com/adilshiyas/adilshiyas.github.io/blob/main/Troch_16x_PV%20(1).mp4
