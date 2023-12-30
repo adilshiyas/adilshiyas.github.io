@@ -19,8 +19,6 @@ https://github.com/adilshiyas/adilshiyas.github.io/assets/153742460/f4bb2ff9-187
 
 
 
-https://github.com/adilshiyas/adilshiyas.github.io/assets/153742460/ac5b9a0e-a1a7-4aa2-8f52-11622679cb03
-
 
 
 
