@@ -10,7 +10,7 @@ In the literature, a distributed consensus protocol by which a connected swarm o
 
 
 <video width="720" height="405" controls autoplay muted loop playsinline>
-<source src='https://media.githubusercontent.com/media/adilshiyas/adilshiyas.github.io/blob/master/Troch_16x_PV (1).mp4?raw=true' type="video/mp4">
+<source src='https://github.com/media/adilshiyas/adilshiyas.github.io/blob/master/Troch_16x_PV (1).mp4?raw=true' type="video/mp4">
  Your browser does not support the video tag.
 </video>
 
