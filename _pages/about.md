@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: Robotics • Motion Planning • Manipulation
+subtitle: Robotics • Motion Planning • Manipulation • Autonomy
 
 profile:
   align: right
   image: adil.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Worcester Polytechnic Institutre</p>
-    <p>M.S Robotics Engineering</p>
+    <p>Worcester, MA</p>
+
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -28,6 +28,6 @@ latest_posts:
 
 Hi! I'm Adil, a robotics engineer interested in motion planning, manipulation, autonomy, and robot learning.
 
-I recently completed my M.S. in Robotics Engineering at Worcester Polytechnic Institute, where my work focused on constant-time motion planning in repetitive environments and benchmarking frameworks for motion planners.
+I recently completed my M.S. in Robotics Engineering at Worcester Polytechnic Institute, where I was a member of the [ELPIS Lab](https://elpislab.org/). My work focused on constant-time motion planning in repetitive environments and benchmarking frameworks for motion planners.
 
-I'm currently interested in robotics roles involving motion planning, manipulation, autonomy, and robot learning.
+I'm currently seeking robotics engineering roles where I can contribute to the development of real-world robotics systems and autonomy.
