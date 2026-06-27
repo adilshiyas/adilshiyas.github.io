@@ -7,7 +7,7 @@ subtitle: Robotics • Motion Planning • Manipulation • Autonomy
 profile:
   align: right
   image: adil.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Worcester, MA</p>
 
