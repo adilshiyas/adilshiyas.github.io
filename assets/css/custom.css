@@ -1,0 +1,11 @@
+.publications .preview {
+  width: 220px !important;
+  max-width: 220px !important;
+}
+
+.publications .preview img {
+  width: 220px !important;
+  max-width: 220px !important;
+  height: auto !important;
+  object-fit: contain;
+}
