@@ -1,81 +1,31 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: CoAd
+description: Constant-Time Planning for Continuous Goal Regions
+img: assets/img/coad.gif
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <img src="{{ '/assets/img/coad.gif' | relative_url }}" alt="CoAd real robot demonstration" class="img-fluid rounded z-depth-1">
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+  CoAd executing a real-world manipulation query on a UR10 robot.
+</div>
+
+In many robotic manipulation tasks, the robot repeatedly solves motion-planning problems that differ mainly in the location of the goal object and its associated obstacle, while the surrounding workspace remains fixed. Prior works have shown that leveraging experience and offline computation can accelerate repeated planning queries, but they lack guarantees of covering the continuous task space and require storing large libraries of solutions.
+
+CoAd provides constant-time planning over a continuous goal-parameterized task space. It discretizes the continuous task space into finitely many Task Coverage Regions and constructs a compressed library by solving only representative root problems offline. Other problems are handled through fast adaptation from these root solutions.
+
+At query time, the system retrieves a root motion in constant time and adapts it to the desired goal using lightweight adaptation modules such as linear interpolation, Dynamic Movement Primitives, or simple trajectory optimization. We evaluate the framework on various manipulators and environments in simulation and the real world, showing that CoAd achieves substantial compression of the motion library while maintaining high success rates and sub-millisecond-level queries.
+
+## Links
+
+- [GitHub](https://github.com/elpis-lab/CoAd)
+- [arXiv](https://arxiv.org/abs/2603.12488)
+- [PDF](https://arxiv.org/pdf/2603.12488.pdf)
