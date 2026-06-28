@@ -1,11 +1,23 @@
+.publications .row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
 .publications .preview {
-  width: 220px !important;
-  max-width: 220px !important;
+  flex: 0 0 260px !important;
+  width: 260px !important;
+  max-width: 260px !important;
 }
 
 .publications .preview img {
-  width: 220px !important;
-  max-width: 220px !important;
+  width: 260px !important;
+  max-width: 260px !important;
   height: auto !important;
   object-fit: contain;
+}
+
+.publications .col-sm-10 {
+  flex: 1 1 auto;
+  max-width: none !important;
 }
