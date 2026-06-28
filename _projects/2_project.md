@@ -41,3 +41,7 @@ The project provides:
 <div class="caption">
 Representative benchmark environments included in MotionBenchMaker-Pinocchio.
 </div>
+
+## Links
+
+- **GitHub:** [MotionBenchMaker-Pinocchio](https://github.com/adilshiyas/MotionBenchMaker-Pinocchio)
