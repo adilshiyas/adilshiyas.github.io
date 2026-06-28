@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MotionBenchMaker - Pinocchio
+title: MBM-Pinocchio
 description: Python-based benchmarking framework for planners in robot manipulation problems
 img: assets/img/pin_tallshelffetch.gif
 importance: 2

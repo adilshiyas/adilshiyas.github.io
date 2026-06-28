@@ -8,14 +8,27 @@ category: work
 related_publications: true
 ---
 
-<div class="row justify-content-center">
-  <div class="col-sm-10 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/coad.gif' | relative_url }}" alt="CoAd real robot demonstration" class="img-fluid rounded z-depth-1">
+<div class="row justify-content-center mt-3">
+
+  <div class="col-md-6 text-center">
+    <img src="{{ '/assets/img/coad.gif' | relative_url }}"
+         alt="CoAd real robot demonstration"
+         class="img-fluid rounded z-depth-1"
+         style="width:90%;">
   </div>
+
+  <div class="col-md-6 text-center">
+    <img src="{{ '/assets/img/li_sim.gif' | relative_url }}"
+         alt="CoAd simulation"
+         class="img-fluid rounded z-depth-1"
+         style="width:90%;">
+  </div>
+
 </div>
 
 <div class="caption">
-  CoAd executing a real-world manipulation query on a UR10 robot.
+  <b>Left:</b> Real-world execution on a UR10 manipulator.
+  <b>Right:</b> Simulation on a Franka Emika Panda.
 </div>
 
 In many robotic manipulation tasks, the robot repeatedly solves motion-planning problems that differ mainly in the location of the goal object and its associated obstacle, while the surrounding workspace remains fixed. Prior works have shown that leveraging experience and offline computation can accelerate repeated planning queries, but they lack guarantees of covering the continuous task space and require storing large libraries of solutions.

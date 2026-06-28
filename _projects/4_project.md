@@ -1,80 +1,28 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Trochoidal Paths for a Multi-Robot Swarm
+description: Distributed consensus-based generation of constrained trochoidal swarm trajectories
+img: assets/img/trochoids.gif
+importance: 4
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <img src="{{ '/assets/img/trochoids.gif' | relative_url }}" alt="Trochoidal paths executed by a multi-robot swarm" class="img-fluid rounded z-depth-1">
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+  Trochoidal trajectories executed by a 3-robot indoor swarm.
+</div>
+
+This project studies the generation of collision-free trochoidal trajectories for a swarm of non-holonomic mobile robots. Starting from a distributed consensus protocol that enables connected agents to generate periodic patterns in two-dimensional space, we design the controller parameters and initial robot positions so that the resulting trajectories satisfy geometric and speed constraints.
+
+The imposed constraints eliminate inter-robot collisions, maintain minimum and maximum separation from fixed reference points, and ensure that the generated trajectories remain physically trackable by the robots. The resulting motion patterns are relevant to persistent surveillance, coverage, guarding regions of interest, and target detection.
+
+We also study how additional robots can be injected into the trajectories at specific locations to improve refresh rate without violating the geometric constraints. The proposed designs are validated in simulation and implemented on an indoor mobile robot platform.
+
+## Links
+
+- **Paper:** [European Journal of Control](https://www.sciencedirect.com/science/article/pii/S0947358024002036)
+- **PDF:** [arXiv PDF](https://arxiv.org/pdf/2311.11720.pdf)
