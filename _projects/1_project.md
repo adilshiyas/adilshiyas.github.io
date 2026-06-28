@@ -11,17 +11,21 @@ related_publications: true
 <div class="row justify-content-center mt-3">
 
   <div class="col-md-6 text-center">
-    <img src="{{ '/assets/img/coad.gif' | relative_url }}"
-         alt="CoAd real robot demonstration"
-         class="img-fluid rounded z-depth-1"
-         style="width:90%;">
+    <div style="height: 300px; display: flex; justify-content: center; align-items: center;">
+      <img src="{{ '/assets/img/coad.gif' | relative_url }}"
+           alt="CoAd real robot demonstration"
+           class="img-fluid rounded z-depth-1"
+           style="max-height: 100%; max-width: 90%;">
+    </div>
   </div>
 
   <div class="col-md-6 text-center">
-    <img src="{{ '/assets/img/li_sim.gif' | relative_url }}"
-         alt="CoAd simulation"
-         class="img-fluid rounded z-depth-1"
-         style="width:90%;">
+    <div style="height: 300px; display: flex; justify-content: center; align-items: center;">
+      <img src="{{ '/assets/img/li_sim.gif' | relative_url }}"
+           alt="CoAd simulation"
+           class="img-fluid rounded z-depth-1"
+           style="max-height: 100%; max-width: 90%;">
+    </div>
   </div>
 
 </div>

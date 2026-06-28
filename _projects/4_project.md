@@ -7,8 +7,11 @@ importance: 4
 ---
 
 <div class="row justify-content-center">
-  <div class="col-sm-10 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/trochoids.gif' | relative_url }}" alt="Trochoidal paths executed by a multi-robot swarm" class="img-fluid rounded z-depth-1">
+  <div class="col-sm-10 mt-3 mt-md-0 text-center">
+    <img src="{{ '/assets/img/trochoids.gif' | relative_url }}"
+         alt="Trochoidal paths executed by a multi-robot swarm"
+         class="img-fluid rounded z-depth-1"
+         style="width:80%;">
   </div>
 </div>
 

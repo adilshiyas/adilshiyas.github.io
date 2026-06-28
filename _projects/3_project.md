@@ -8,8 +8,11 @@ category: work
 ---
 
 <div class="row justify-content-center">
-  <div class="col-sm-10 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/hanoi3_gif.gif' | relative_url }}" alt="Tower of Hanoi demonstration" class="img-fluid rounded z-depth-1">
+  <div class="col-sm-10 mt-3 mt-md-0 text-center">
+    <img src="{{ '/assets/img/hanoi3_gif.gif' | relative_url }}"
+         alt="Tower of Hanoi demonstration"
+         class="img-fluid rounded z-depth-1"
+         style="width:80%;">
   </div>
 </div>
 
