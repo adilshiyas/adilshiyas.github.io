@@ -1,5 +1,6 @@
 .publications .row {
-  display: flex;
+  display: flex !important;
+  flex-wrap: nowrap !important;
   align-items: flex-start;
   gap: 1.5rem;
 }
@@ -11,13 +12,18 @@
 }
 
 .publications .preview img {
+  display: block;
   width: 260px !important;
   max-width: 260px !important;
   height: auto !important;
   object-fit: contain;
 }
 
-.publications .col-sm-10 {
-  flex: 1 1 auto;
-  max-width: none !important;
+.publications .col-sm-10,
+.publications .col-md-10,
+.publications .col {
+  flex: 1 1 0 !important;
+  width: auto !important;
+  max-width: calc(100% - 260px - 1.5rem) !important;
+  min-width: 0 !important;
 }
