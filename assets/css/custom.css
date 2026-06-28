@@ -27,3 +27,24 @@
   max-width: calc(100% - 260px - 1.5rem) !important;
   min-width: 0 !important;
 }
+
+.projects .card {
+  overflow: hidden;
+}
+
+.projects .card-body,
+.projects .card-text,
+.projects .card-title {
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+.projects .card-text {
+  line-height: 1.35;
+}
+
+.projects .card-title {
+  white-space: normal !important;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
