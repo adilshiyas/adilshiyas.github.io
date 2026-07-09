@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Linear MPC with Dynamic Obstacle Avoidance
-description: Linear MPC for trajectory tracking and dynamic obstacle avoidance on a UR10 manipulator using quadratic programming. 
-img: assets/img/MPC_V1.gif
+title: TAMP Framework with MoveIt
+description: ROS 2 task and motion planning package using PDDL, Fast Downward, and MoveIt
+img: assets/img/hanoi3_gif.gif
 importance: 3
 category: work
 ---
 
 <div class="row justify-content-center">
   <div class="col-sm-10 mt-3 mt-md-0 text-center">
-    <img src="{{ '/assets/img/MPC_V1.gif' | relative_url }}"
-         alt="Linear MPC"
+    <img src="{{ '/assets/img/hanoi3_gif.gif' | relative_url }}"
+         alt="Tower of Hanoi demonstration"
          class="img-fluid rounded z-depth-1"
          style="width:80%;">
   </div>
