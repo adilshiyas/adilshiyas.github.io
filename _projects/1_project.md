@@ -1,11 +1,24 @@
 ---
 layout: page
-title: MBM-Pinocchio
-description: Python-based benchmarking framework for planners in robot manipulation problems
+title: MotionBenchMaker - Pinocchio
+description: Simulator-agnostic benchmarking framework for planners in robot manipulation problems
 img: assets/img/pin_tallshelffetch.gif
 importance: 2
 category: work
 giscus_comments: false
+
+technologies:
+  - name: Python
+    color: "#3776ab"
+  - name: OMPL
+    color: "#ff9800"
+  - name: Pinocchio
+    color: "#4caf50"
+  - name: hpp-fcl
+    color: "#607d8b"
+  - name: MeshCat
+    color: "#9c27b0"
+
 ---
 
 MotionBenchMaker-Pinocchio is a Python reimplementation of MotionBenchMaker built on Pinocchio, Coal, MeshCat, and OMPL.

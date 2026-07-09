@@ -23,3 +23,14 @@
     </div>
   </a>
 </div>
+
+{% if project.technologies %}
+  <div class="project-tech-list">
+    {% for tech in project.technologies %}
+      <span class="project-tech-item">
+        <span class="project-tech-dot" style="background-color: {{ tech.color }};"></span>
+        {{ tech.name }}
+      </span>
+    {% endfor %}
+  </div>
+{% endif %}
