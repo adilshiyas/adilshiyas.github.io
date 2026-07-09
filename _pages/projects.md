@@ -6,7 +6,7 @@ description: Some of my robotics projects.
 nav: true
 nav_order: 3
 display_categories:
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
