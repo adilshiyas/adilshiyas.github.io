@@ -7,12 +7,14 @@ importance: 3
 category: work
 
 technologies:
+  - name: ROS 2
+    color: "#424242"
   - name: C++
     color: "#d32f2f"
-  - name: ROS 2
-    color: "424242"
+  - name: Python
+    color: "#d32f2f"
   - name: MoveIt 2
-    color: "1976D2"
+    color: "#1976D2"
   - name: OMPL
     color: "#1976d2"
   - name: PDDL
@@ -41,6 +43,15 @@ The symbolic planning problem is modeled in PDDL and solved using Fast Downward.
 
 - **hanoi_planner** – Generates a symbolic task plan by invoking the Fast Downward PDDL planner.
 - **hanoi_mtc_executor** – Converts each symbolic action into a MoveIt Task Constructor task, computes inverse kinematics, collision-free motion plans, and executes the resulting trajectory.
+
+<div class="row justify-content-center">
+  <div class="col-sm-10 mt-3 mt-md-0 text-center">
+    <img src="{{ '/assets/img/TAMP_framework.png' | relative_url }}"
+         alt="TAMP Framework"
+         class="img-fluid rounded z-depth-1"
+         style="width:80%;">
+  </div>
+</div>
 
 ## Links
 

@@ -10,7 +10,7 @@ technologies:
   - name: C++
     color: "#d32f2f"
   - name: MuJoCo
-    color: "00897B"
+    color: "#00897B"
   - name: OSQP
     color: "#388e3c"
   - name: OMPL
@@ -200,4 +200,4 @@ The controller successfully tracks a reference trajectory while avoiding a dynam
 
 ## Links
 
-- **GitHub:** [MoveIt-PDDL](https://github.com/adilshiyas/Dynamic-Obstacle-MPC)
+- **GitHub:** [Dynamic-Obstacle-MPC](https://github.com/adilshiyas/Dynamic-Obstacle-MPC)

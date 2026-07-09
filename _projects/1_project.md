@@ -14,7 +14,7 @@ technologies:
     color: "#1976d2"
   - name: Pinocchio
     color: "#7b1fa2"
-  - name: hpp-fcl
+  - name: Coal
     color: "#7b1fa2"
 
 ---
