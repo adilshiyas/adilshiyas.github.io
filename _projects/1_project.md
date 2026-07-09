@@ -9,15 +9,13 @@ giscus_comments: false
 
 technologies:
   - name: Python
-    color: "#3776ab"
+    color: "#d32f2f"
   - name: OMPL
-    color: "#ff9800"
+    color: "#1976d2"
   - name: Pinocchio
-    color: "#4caf50"
+    color: "#7b1fa2"
   - name: hpp-fcl
-    color: "#607d8b"
-  - name: MeshCat
-    color: "#9c27b0"
+    color: "#7b1fa2"
 
 ---
 

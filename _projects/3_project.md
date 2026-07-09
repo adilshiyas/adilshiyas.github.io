@@ -5,6 +5,19 @@ description: ROS 2 task and motion planning package using PDDL, Fast Downward, a
 img: assets/img/hanoi3_gif.gif
 importance: 3
 category: work
+
+technologies:
+  - name: C++
+    color: "#d32f2f"
+  - name: ROS 2
+    color: "424242"
+  - name: MoveIt 2
+    color: "1976D2"
+  - name: OMPL
+    color: "#1976d2"
+  - name: PDDL
+    color: "#1976D2"
+    
 ---
 
 <div class="row justify-content-center">
