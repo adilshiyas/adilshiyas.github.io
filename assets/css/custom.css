@@ -48,3 +48,30 @@
   overflow-wrap: break-word;
   word-break: break-word;
 }
+
+.projects {
+  width: min(1100px, 95vw);
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.projects .container,
+.projects .container-fluid {
+  max-width: 100%;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.projects .row {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.projects .col,
+.projects [class^="col-"] {
+  width: 100%;
+  max-width: 100%;
+  flex: 0 0 100%;
+}
