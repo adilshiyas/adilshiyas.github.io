@@ -47,7 +47,7 @@ The symbolic planning problem is modeled in PDDL and solved using Fast Downward.
 
 <div class="row justify-content-center">
   <div class="col-sm-10 mt-3 mt-md-0 text-center">
-    <img src="{{ '/assets/img/TAMP_framework.png' | relative_url }}"
+    <img src="{{ '/assets/img/TAMP_flowchart.png' | relative_url }}"
          alt="TAMP Framework"
          class="img-fluid rounded z-depth-1"
          style="width:80%;">
