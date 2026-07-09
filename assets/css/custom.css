@@ -77,17 +77,8 @@
 }
 
 /* Home/about page selected publications thumbnails */
-.news .preview,
-.bibliography .preview {
-  flex: 0 0 300px !important;
-  width: 300px !important;
-  max-width: 300px !important;
-}
-
-.news .preview img,
-.bibliography .preview img {
+img.preview {
   width: 300px !important;
   max-width: 300px !important;
   height: auto !important;
-  object-fit: contain;
 }
