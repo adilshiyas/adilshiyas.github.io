@@ -107,26 +107,13 @@ body {
   flex-wrap: wrap;
   gap: 0.45rem 1rem;
   margin-top: 0.4rem;
-  margin-bottom: 0.9rem;   /* Add this */
+  margin-bottom: 0.9rem;
   align-items: center;
 }
 
 .project-tech-item {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
   font-size: 0.9rem;
   line-height: 1.2;
-}
-
-.project-tech-dot {
-  display: inline-block !important;
-  width: 10px !important;
-  height: 10px !important;
-  min-width: 10px !important;
-  min-height: 10px !important;
-  border-radius: 50% !important;
-  margin-right: 6px !important;
-  vertical-align: middle !important;
-  flex-shrink: 0 !important;
 }
