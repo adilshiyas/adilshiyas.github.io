@@ -12,7 +12,7 @@ profile:
     <p>Worcester, MA</p>
 
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -32,18 +32,4 @@ I recently completed my M.S. in Robotics Engineering at Worcester Polytechnic In
 
 I'm currently seeking robotics engineering roles where I can contribute to the development of real-world robotics systems and autonomy.
 
-## Selected Publications
 
-{% bibliography --query @*[selected=true] %}
-
-## Featured Projects
-
-{% assign selected_projects = site.projects | where: "selected", true | sort: "importance" %}
-
-<div class="container">
-  <div class="row row-cols-1">
-    {% for project in selected_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-  </div>
-</div>

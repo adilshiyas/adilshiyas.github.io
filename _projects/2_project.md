@@ -171,15 +171,15 @@ The slack variables ensure the optimization remains feasible when the obstacle a
 <table align="center">
   <tr>
     <td align="center">
-      <img src="/assets/img/MPC_V1.gif" width="300"/><br/>
+      <img src="/assets/img/MPC_V1.gif" width="250"/><br/>
       <em>Scenario 1: Vertical Patrol</em>
     </td>
     <td align="center">
-      <img src="/assets/img/MPC_H.gif" width="300"/><br/>
+      <img src="/assets/img/MPC_H.gif" width="250"/><br/>
       <em>Scenario 2: Horizontal Patrol</em>
     </td>
     <td align="center">
-      <img src="/assets/img/MPC_C.gif" width="300"/><br/>
+      <img src="/assets/img/MPC_C.gif" width="250"/><br/>
       <em>Scenario 3: Circular Patrol</em>
     </td>
   </tr>
