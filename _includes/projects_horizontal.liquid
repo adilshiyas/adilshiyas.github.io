@@ -1,0 +1,25 @@
+<div class="col mb-4">
+  <a href="{{ project.url | relative_url }}">
+    <div class="card h-100 hoverable">
+      <div class="row g-0">
+        {% if project.img %}
+          <div class="col-md-4">
+            <img
+              src="{{ project.img | relative_url }}"
+              class="img-fluid rounded-start"
+              alt="{{ project.title }}"
+            >
+          </div>
+          <div class="col-md-8">
+        {% else %}
+          <div class="col-md-12">
+        {% endif %}
+            <div class="card-body">
+              <h2 class="card-title">{{ project.title }}</h2>
+              <p class="card-text">{{ project.description }}</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </a>
+</div>
