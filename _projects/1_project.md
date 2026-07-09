@@ -5,6 +5,7 @@ description: Simulator-agnostic benchmarking framework for planners in robot man
 img: assets/img/pin_tallshelffetch.gif
 importance: 2
 category: work
+selected: true
 giscus_comments: false
 
 technologies:

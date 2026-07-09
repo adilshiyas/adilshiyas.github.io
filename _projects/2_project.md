@@ -5,6 +5,7 @@ description: Linear MPC for trajectory tracking and dynamic obstacle avoidance o
 img: assets/img/MPC_V1.gif
 importance: 3
 category: work
+selected: true
 
 technologies:
   - name: C++
