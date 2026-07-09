@@ -100,3 +100,28 @@ body .bibliography .row > .abbr img.preview {
 body {
   outline: 5px solid red !important;
 }
+
+/* List technologies under each project */
+.project-tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1rem;
+  margin-top: 0.65rem;
+  align-items: center;
+}
+
+.project-tech-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
+.project-tech-dot {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
