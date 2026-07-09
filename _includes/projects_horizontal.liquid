@@ -21,7 +21,7 @@
                 <div class="project-tech-list">
                   {% for tech in project.technologies %}
                     <span class="project-tech-item">
-                      <span class="project-tech-dot" style="background-color: {{ tech.color }};"></span>
+                      <span style="color: {{ tech.color }}; font-size: 1.1em; margin-right: 0.25rem;">●</span>
                       {{ tech.name }}
                     </span>
                   {% endfor %}
