@@ -106,7 +106,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 0.45rem 1rem;
-  margin-top: 0.65rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.9rem;   /* Add this */
   align-items: center;
 }
 
@@ -119,9 +120,13 @@ body {
 }
 
 .project-tech-dot {
-  width: 0.55rem;
-  height: 0.55rem;
-  border-radius: 50%;
-  display: inline-block;
-  flex-shrink: 0;
+  display: inline-block !important;
+  width: 10px !important;
+  height: 10px !important;
+  min-width: 10px !important;
+  min-height: 10px !important;
+  border-radius: 50% !important;
+  margin-right: 6px !important;
+  vertical-align: middle !important;
+  flex-shrink: 0 !important;
 }
