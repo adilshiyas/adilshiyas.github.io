@@ -78,16 +78,26 @@
 }
 
 /* Home/about page selected publications thumbnails */
-.publications .abbr,
-.bibliography .abbr,
-.abbr {
-    flex: 0 0 25% !important;
-    max-width: 25% !important;
+body .bibliography .row > .abbr,
+body .bibliography .row > .col-sm-2.abbr,
+body .bibliography .row > .col.col-sm-2.abbr {
+  flex: 0 0 30% !important;
+  width: 30% !important;
+  max-width: 30% !important;
 }
 
-.publications #coad,
-.bibliography .col-sm-8,
-#coad {
-    flex: 0 0 75% !important;
-    max-width: 75% !important;
+body .bibliography .row > .abbr + .col-sm-8 {
+  flex: 0 0 70% !important;
+  width: 70% !important;
+  max-width: 70% !important;
+}
+
+body .bibliography .row > .abbr img.preview {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+body {
+  outline: 5px solid red !important;
 }
