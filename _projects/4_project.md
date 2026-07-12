@@ -3,7 +3,7 @@ layout: page
 title: Constrained Motion Planning for Active 3D Reconstruction
 description: Continuous constrained motion planning for active viewpoint selection using Expansion-GRR on a UR10 manipulator.
 img: assets/img/constrained_ur10.gif
-importance: 4
+importance: 2
 category: work
 selected: false
 

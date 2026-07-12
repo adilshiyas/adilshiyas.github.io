@@ -3,7 +3,7 @@ layout: page
 title: Linear MPC with Dynamic Obstacle Avoidance
 description: Linear MPC for trajectory tracking and dynamic obstacle avoidance on a UR10 manipulator using quadratic programming. 
 img: assets/img/MPC_V1.gif
-importance: 3
+importance: 4
 category: work
 selected: true
 

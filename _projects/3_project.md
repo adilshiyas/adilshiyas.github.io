@@ -3,7 +3,7 @@ layout: page
 title: TAMP Framework with MoveIt
 description: ROS 2 task and motion planning package using PDDL, Fast Downward, and MoveIt
 img: assets/img/hanoi3_gif.gif
-importance: 3
+importance: 1
 category: work
 selected: true
 

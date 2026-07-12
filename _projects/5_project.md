@@ -3,7 +3,7 @@ layout: page
 title: Reinforcement Learning for Robotic Object Picking
 description: Deep reinforcement learning for vision-based object picking with a KUKA manipulator using DDPG and A3C.
 img: assets/img/kuka_ddpg.gif
-importance: 5
+importance: 6
 category: work
 selected: false
 
